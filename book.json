@@ -3,7 +3,8 @@
         "ad",
         "add-header",
         "-advanced-emoji",
-        "anchor-navigation"
+        "anchor-navigation",
+        "baidu"
     ],
     "pluginsConfig": {}
 }
