@@ -27,5 +27,4 @@
 * [arduino学习笔记18数码管实验](arduinoxue_xi_bi_ji_18_shu_ma_guan_shi_yan.md)
 * [本次试验的效果为数码管1,2,3,4,5,6,7,8这样子循环显示。http://player.youku.com/player.php/sid/XMjgzNzQ4Mzk2/v.swf](ben_ci_shi_yan_de_xiao_guo_wei_shu_ma_guan_1_,_2_,.md)
 * [arduino学习笔记21数字骰子实验](arduinoxue_xi_bi_ji_21_shu_zi_tou_zi_shi_yan.md)
-* [实验的效果如下http://player.youku.com/player.php/sid/XMjg1MDE1MjA4/v.swf](shi_yan_de_xiao_guo_ru_xia_http__player__youku__co.md)
 
