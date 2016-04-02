@@ -25,5 +25,4 @@
 * [arduino学习笔记17蜂鸣器实验](arduinoxue_xi_bi_ji_17_feng_ming_qi_shi_yan.md)
 * [实验效果如下面视频（需要开音响才能听到蜂鸣器发出的声音）http://player.youku.com/player.php/sid/XMjgzNzQ4OTU2/v.swf第一个频率的声音为1毫秒发声1毫秒不发声。1秒等于1000毫秒，2毫秒为一个周期。得出频率为500赫兹。第二个频率的声音为2毫秒发声2毫秒不发声，4毫秒为一个周期。得出频率为250赫兹。一个事件的循环就是500赫兹的声音响80毫秒，然后250赫兹的声音响100毫秒。如此循环下去。while()函数本次试验使用到了while()函数在loop()中用while也是一个循环语句，一般形式：while(表达式)语句表达式是循环条件，语句是循环体。语义是：计算表达式的值，当值为真（非0）时，执行循环体语句。其执行过程可用下图表： 作用：实现“当型”循环。当“表达式”非0（真）是，执行“语句”。“语句”是被循环执行的程序，称为“循环体”。](shi_yan_xiao_guo_ru_xia_mian_shi_pin_ff08_xu_yao_k.md)
 * [arduino学习笔记18数码管实验](arduinoxue_xi_bi_ji_18_shu_ma_guan_shi_yan.md)
-* [本次试验的效果为数码管1,2,3,4,5,6,7,8这样子循环显示。http://player.youku.com/player.php/sid/XMjgzNzQ4Mzk2/v.swf](ben_ci_shi_yan_de_xiao_guo_wei_shu_ma_guan_1_,_2_,.md)
 
