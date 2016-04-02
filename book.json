@@ -1,6 +1,7 @@
 {
     "plugins": [
-        "ad"
+        "ad",
+        "add-header"
     ],
     "pluginsConfig": {}
 }
