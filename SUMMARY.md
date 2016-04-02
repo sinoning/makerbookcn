@@ -21,5 +21,5 @@
    * [模拟输出](mo_ni_shu_chu.md)
 * [Arduino实验课程](arduinoshi_yan_ke_cheng.md)
    * [制作第一个电路](zhi_zuo_di_yi_ge_dian_lu.md)
-* Arduino高级制作
+* [Arduino高级制作](arduinogao_ji_zhi_zuo.md)
 
