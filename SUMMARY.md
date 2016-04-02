@@ -11,6 +11,7 @@
 * [Arduino入门教程](arduinoru_men_jiao_cheng.md)
    * [Arduino基础](arduinoban_ben.md)
    * [Arduino语言基础](arduinoyu_yan_ji_chu.md)
+   * Arduino编程
 * [arduino学习笔记6 Arduino基础](arduinoxue_xi_bi_ji_6_arduino_ji_chu.md)
 * [arduino学习笔记7函数](arduinoxue_xi_bi_ji_7_han_shu.md)
 * [arduino学习笔记8数字输入](arduinoxue_xi_bi_ji_8_shu_zi_shu_ru.md)
