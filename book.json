@@ -6,7 +6,9 @@
         "anchor-navigation",
         "baidu",
         "betterchinese",
-        "changyan"
+        "changyan",
+        "search-pro",
+        "share"
     ],
     "pluginsConfig": {}
 }
