@@ -12,7 +12,6 @@
    * [Arduino基础](arduinoban_ben.md)
    * [Arduino语言基础](arduinoyu_yan_ji_chu.md)
 * [arduino学习笔记3 arduino语言](arduinoxue_xi_bi_ji_3_arduino_yu_yan/README.md)
-   * [结构](arduinoxue_xi_bi_ji_3_arduino_yu_yan/jie_gou.md)
    * [功能](arduinoxue_xi_bi_ji_3_arduino_yu_yan/gong_neng.md)
 * [arduino学习笔记4  数据类型](arduinoxue_xi_bi_ji_4_shu_ju_lei_xing.md)
 * [arduino学习笔记5 Arduuino复合运算符](arduinoxue_xi_bi_ji5_arduuino_fu_he_yun_suan_fu.md)
