@@ -108,6 +108,173 @@
 
 •	unsigned long pulseIn(pin, value)    脉冲长度记录函数，返回时间参数（us），pin表示为0～13，value为HIGH或LOW。比如value为HIGH，那么当pin输入为高电平时，开始计时，当pin输入为低电平时，停止计时，然后返回该时间。
 
+### 时间函数
+
+
+•	unsigned long millis()   返回时间函数（单位ms），该函数是指，当程序运行就开始计时并返回记录的参数，该参数溢出大概需要50天时间。 
+
+•	delay(ms)    延时函数（单位ms）。 
+
+•	delayMicroseconds(us)    延时函数（单位us）。 
+数学函数
+
+•	min(x, y) 求最小值 
+
+•	max(x, y) 求最大值 
+
+•	abs(x)   计算绝对值 
+
+•	constrain(x, a, b) 约束函数，下限a，上限b，x必须在ab之间才能返回。 
+
+•	map(value, fromLow, fromHigh, toLow, toHigh)    约束函数，value必须在fromLow与toLow之间和fromHigh与toHigh之间。 
+
+•	pow(base, exponent) 开方函数，base的exponent次方。
+
+•	sq(x)     平方 
+
+•	sqrt(x)   开根号 
+
+
+### 三角函数
+
+
+•	sin(rad) 
+•	cos(rad) 
+•	tan(rad) 
+
+### 随机数函数
+
+
+•	randomSeed(seed)   随机数端口定义函数，seed表示读模拟口analogRead(pin)函数 。 
+
+•	long random(max)   随机数函数，返回数据大于等于0，小于max。 
+
+•	long random(min, max)   随机数函数，返回数据大于等于min，小于max。 
+
+
+### 外部中断函数
+
+
+•	attachInterrupt(interrupt, , mode)     外部中断只能用到数字IO口2和3，interrupt表示中断口初始0或1，表示一个功能函数，mode：LOW低电平中断，CHANGE有变化就中断，RISING上升沿中断，FALLING 下降沿中断。 
+
+•	detachInterrupt(interrupt)    中断开关，interrupt=1 开，interrupt=0 关。 
+中断使能函数
+
+•	interrupts() 使能中断 
+
+•	noInterrupts() 禁止中断 
+
+### 串口收发函数
+
+
+•	Serial.begin(speed) 串口定义波特率函数，speed表示波特率，如9600，19200等。 
+•	int Serial.available() 判断缓冲器状态。 
+•	int Serial.read()   读串口并返回收到参数。 
+•	Serial.flush()    清空缓冲器。 
+•	Serial.print(data) 串口输出数据。 
+•	Serial.println(data)   串口输出数据并带回车符。 
+/**********************************/
+/************Arduino语言库文件*************/
+
+### 官方库文件
+
+
+•	EEPROM - EEPROM读写程序库 
+•	Ethernet - 以太网控制器程序库 
+•	LiquidCrystal - LCD控制程序库 
+•	Servo - 舵机控制程序库 
+•	SoftwareSerial - 任何数字IO口模拟串口程序库 
+•	Stepper - 步进电机控制程序库 
+•	Wire - TWI/I2C总线程序库 
+•	Matrix - LED矩阵控制程序库 
+•	Sprite - LED矩阵图象处理控制程序库 
+
+### 非官方库文件
+
+
+•	DateTime - a library for keeping track of the current date and time in software. 
+•	Debounce - for reading noisy digital inputs (e.g. from buttons) 
+•	Firmata - for communicating with applications on the computer using a standard serial protocol. 
+•	GLCD - graphics routines for LCD based on the KS0108 or equivalent chipset. 
+•	LCD - control LCDs (using 8 data lines) 
+•	LCD 4 Bit - control LCDs (using 4 data lines) 
+•	LedControl - for controlling LED matrices or seven-segment displays with a MAX7221 or MAX7219. 
+•	LedControl - an alternative to the Matrix library for driving multiple LEDs with Maxim chips. 
+•	Messenger - for processing text-based messages from the computer 
+•	Metro - help you time actions at regular intervals 
+•	MsTimer2 - uses the timer 2 interrupt to trigger an action every N milliseconds. 
+•	OneWire - control devices (from Dallas Semiconductor) that use the One Wire protocol. 
+•	PS2Keyboard - read characters from a PS2 keyboard. 
+•	Servo - provides software support for Servo motors on any pins. 
+•	Servotimer1 - provides hardware support for Servo motors on pins 9 and 10 
+•	Simple Message System - send messages between Arduino and the computer 
+•	SSerial2Mobile - send text messages or emails using a cell phone (via AT commands over software serial) 
+•	TextString - handle strings 
+•	TLC5940 - 16 channel 12 bit PWM controller. 
+•	X10 - Sending X10 signals over AC power lines 
+/****************************************/
+ 
+### 数据类型
+
+
+有多种类型的变量，如下所述
+boolean   布尔
+char        字符
+byte        字节
+int          整数
+unsigned int 无符号整数
+long        长整数
+unsigned long 无符号长整数
+float        浮点
+double     双字节浮点
+string      字符串
+array       数组
+
+
+### Arduuino复合运算符
+
+
++= , -= , *= , /= 
+Description描述
+Perform a mathematical operation on a variable with another constant or variable. The += (et al) operators are just a convenient shorthand for the expanded syntax, listed below. 
+对一个变量和另一个参数或变量完成一个数学运算。+=（以及其他）可以缩短语法长度。
+Syntax语法
+x += y;   // equivalent to the expression x = x + y;          // 等价于 x = x + y;
+x -= y;   // equivalent to the expression x = x - y;           // 等价于 x = x - y;
+x *= y;   // equivalent to the expression x = x * y;           // 等价于 x = x * y;
+x /= y;   // equivalent to the expression x = x / y;           // 等价于 x = x / y;
+Parameters参数
+x: any variable type 
+x：任何变量类型
+y: any variable type or constant 
+y：任何变量类型或常数
+Examples范例
+x = 2;
+x += 4;      // x now contains 6             // x现在为6
+x -= 3;      // x now contains 3             // x现在为3
+x *= 10;     // x now contains 30             // x现在为30
+x /= 2;      // x now contains 15             // x现在为15
+
+
+### Syntax语法
+
+
+x++; // increment x by one and returns the old value of x
+      // 将x的值加1并返回原来的x的值。    ++x; // increment x by one and returns the new value of x      // 将x的值加1并返回现在的x的值。   
+x-- ;   // decrement x by one and returns the old value of x       // 将x的值减1并返回原来的x的值。   
+--x ;   // decrement x by one and returns the new value of x        // 将x的值减1并返回现在的x的值。
+Parameters参数
+x: an integer or long (possibly unsigned) 
+x：一个整数或长整数（可以无符号）
+Returns返回
+The original or newly incremented / decremented value of the variable. 
+返回变量原始值或增加/消耗后的新值。
+Examples范例
+x = 2;
+y = ++x;      // x now contains 3, y contains 3              // x现在为3，y为3
+y = x--;      // x contains 2 again, y still contains 3              // x现在仍然为2，y将为3
+
+
 
 
 
