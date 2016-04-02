@@ -21,5 +21,4 @@
    * [模拟输出](mo_ni_shu_chu.md)
 * [Arduino实验课程](arduinoshi_yan_ke_cheng.md)
    * [制作第一个电路](zhi_zuo_di_yi_ge_dian_lu.md)
-* [上面这段代码的效果视频如下：http://player.youku.com/player.php/sid/XMjg0MjA2Njk2/v.swf上面的代码分为4个子事件，样式1，样式2，样式3和闪烁。闪烁：1-6号灯亮，延时200ms，1-6号灯熄灭，延时200ms。效果视频如下：http://player.youku.com/player.php/sid/XMjg0MjAxMDgw/v.swf样式1:1-6号灯逐个点亮，然后6-1逐个熄灭。效果视频如下：http://player.youku.com/player.php/sid/XMjgzOTA0Mjk2/v.swf样式2：3,4号灯先亮，然后2，5号再亮，最后1,6号两。接着1，6号灯熄灭，再2，5号熄灭，最后3,4号熄灭。效果视频如下：http://player.youku.com/player.php/sid/XMjg0MjAwNTA0/v.swf样式三：3,4号灯亮，然后3,4号熄灭2，5号亮，然后2,5号熄灭1，6号亮，再1，6号熄灭2,5号亮，最后2,5号熄灭3,4号亮。效果视频如下：http://player.youku.com/player.php/sid/XMjg0MjAwNzc2/v.swf通过以上4种事件的组合，就可以做出来各种效果。](shang_mian_zhe_duan_dai_ma_de_xiao_guo_shi_pin_ru_.md)
 
