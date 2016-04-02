@@ -14,7 +14,7 @@
    * [Arduino编程](arduinobian_cheng.md)
    * [数字输入](shu_zi_shu_ru.md)
    * [数字输出](shu_zi_shu_chu.md)
-   * 串口输入
+   * [串口输入](chuan_kou_shu_ru.md)
 * [arduino学习笔记10 Arduino的串口输入](arduinoxue_xi_bi_ji10_arduino_de_chuan_kou_shu_ru.md)
 * [arduino学习笔记11 Arduino的串口输出](arduinoxue_xi_bi_ji11_arduino_de_chuan_kou_shu_chu.md)
 * [arduino学习笔记12 PWM（脉冲宽度调制）](arduinoxue_xi_bi_ji_12_pwm_ff08_mai_chong_kuan_du_.md)
