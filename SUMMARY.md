@@ -10,7 +10,7 @@
    * [什么是开源硬件](shi_yao_shi_kai_yuan_ying_jian.md)
 * [Arduino入门教程](arduinoru_men_jiao_cheng.md)
    * [Arduino基础](arduinoban_ben.md)
-   * Arduino语言基础
+   * [Arduino语言基础](arduinoyu_yan_ji_chu.md)
 * [arduino学习笔记3 arduino语言](arduinoxue_xi_bi_ji_3_arduino_yu_yan/README.md)
    * [结构](arduinoxue_xi_bi_ji_3_arduino_yu_yan/jie_gou.md)
    * [功能](arduinoxue_xi_bi_ji_3_arduino_yu_yan/gong_neng.md)
