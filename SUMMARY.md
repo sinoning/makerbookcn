@@ -13,7 +13,7 @@
    * [Arduino语言基础](arduinoyu_yan_ji_chu.md)
    * [Arduino编程](arduinobian_cheng.md)
    * [数字输入](shu_zi_shu_ru.md)
-   * 数字输出
+   * [数字输出](shu_zi_shu_chu.md)
 * [arduino学习笔记9 Arduino的数字输出](arduinoxue_xi_bi_ji_9_arduino_de_shu_zi_shu_chu.md)
 * [arduino学习笔记10 Arduino的串口输入](arduinoxue_xi_bi_ji10_arduino_de_chuan_kou_shu_ru.md)
 * [arduino学习笔记11 Arduino的串口输出](arduinoxue_xi_bi_ji11_arduino_de_chuan_kou_shu_chu.md)
