@@ -93,4 +93,25 @@
 * void setup()   初始化变量，管脚模式，调用库函数等 
 * void loop() 连续执行函数内的语句 
 
+### 数字 I/O
+* **pinMode**(pin, mode)    数字IO口输入输出模式定义函数，pin表示为0～13， mode表示为INPUT或OUTPUT。 
+* 	digitalWrite(pin, value)   数字IO口输出电平定义函数，pin表示为0～13，value表示为HIGH或LOW。比如定义HIGH可以驱动LED
+* int digitalRead(pin)    数字IO口读输入电平函数，pin表示为0～13，value表示为HIGH或LOW。比如可以读数字传感器。
+
+### 模拟 I/O
+•	int analogRead(pin)    模拟IO口读函数，pin表示为0～5（Arduino Diecimila为0～5，Arduino nano为0～7）。比如可以读模拟传感器（10位AD，0～5V表示为0～1023）。 
+
+•	analogWrite(pin, value) - PWM     数字IO口PWM输出函数，Arduino数字IO口标注了PWM的IO口可使用该函数，pin表示3, 5, 6, 9, 10, 11，value表示为0～255。比如可用于电机PWM调速或音乐播放。
+
+### 扩展 I/O
+•	shiftOut(dataPin, clockPin, bitOrder, value)    SPI外部IO扩展函数，通常使用带SPI接口的74HC595做8个IO扩展，dataPin为数据口，clockPin为时钟口，bitOrder为数据传输方向（MSBFIRST高位在前，LSBFIRST低位在前），value表示所要传送的数据（0～255），另外还需要一个IO口做74HC595的使能控制。 
+
+•	unsigned long pulseIn(pin, value)    脉冲长度记录函数，返回时间参数（us），pin表示为0～13，value为HIGH或LOW。比如value为HIGH，那么当pin输入为高电平时，开始计时，当pin输入为低电平时，停止计时，然后返回该时间。
+
+
+
+
+
+
+
 
