@@ -4,7 +4,8 @@
         "add-header",
         "-advanced-emoji",
         "anchor-navigation",
-        "baidu"
+        "baidu",
+        "betterchinese"
     ],
     "pluginsConfig": {}
 }
