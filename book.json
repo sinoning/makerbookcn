@@ -2,7 +2,8 @@
     "plugins": [
         "ad",
         "add-header",
-        "advanced-emoji"
+        "-advanced-emoji",
+        "anchor-navigation"
     ],
     "pluginsConfig": {}
 }
