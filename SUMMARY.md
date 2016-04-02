@@ -21,6 +21,7 @@
    * [模拟输出](mo_ni_shu_chu.md)
 * [arduino学习笔记15制作第一个电路 单led闪烁](arduinoxue_xi_bi_ji_15_zhi_zuo_di_yi_ge_dian_lu_da.md)
 * [Arduino实验课程](arduinoshi_yan_ke_cheng.md)
+   * 制作第一个电路
 * [图中int;void setup等褐色的文字是系统命令，OUTPUT等蓝色文字是命令的功能开关，黑色文字是变量。程序写好以后点击编译按钮进行编译。 编译完成后会显示出来编译后的文件大小，本次编译出来的程序大小为1026字节。 然后把编译好的程序下载到arduino控制板上，点击下载按钮。 下载完成后会有提示 把所有的ledpin换成xxx试试，一样可以滴~~~ledpin只是自己定义的一个名字，作用只是方便识别辨认。 本次实验效果如下，闪烁着光芒的灯。。。http://player.youku.com/player.php/sid/XMjg0MTA0Mzg4/v.swf总结：int;void setup等褐色文字是系统命令，OUTPUT等蓝色文字是系统命令的功能开关，黑色文字是变量。在"int ledpin=5"中;设置了LED的数字IO脚，ledpin仅仅是5号数字端口自定义出来的名字，变成xxx等都可以。对于多脚IO操作的程序中，为每一个引脚定义名字是有必要性的，程序复杂后方便功能识别。](tu_zhong_int__void_setup_deng_he_se_de_wen_zi_shi_.md)
 * [arduino学习笔记16六灯闪烁实验](arduinoxue_xi_bi_ji_16_liu_deng_shan_shuo_shi_yan.md)
 * [上面这段代码的效果视频如下：http://player.youku.com/player.php/sid/XMjg0MjA2Njk2/v.swf上面的代码分为4个子事件，样式1，样式2，样式3和闪烁。闪烁：1-6号灯亮，延时200ms，1-6号灯熄灭，延时200ms。效果视频如下：http://player.youku.com/player.php/sid/XMjg0MjAxMDgw/v.swf样式1:1-6号灯逐个点亮，然后6-1逐个熄灭。效果视频如下：http://player.youku.com/player.php/sid/XMjgzOTA0Mjk2/v.swf样式2：3,4号灯先亮，然后2，5号再亮，最后1,6号两。接着1，6号灯熄灭，再2，5号熄灭，最后3,4号熄灭。效果视频如下：http://player.youku.com/player.php/sid/XMjg0MjAwNTA0/v.swf样式三：3,4号灯亮，然后3,4号熄灭2，5号亮，然后2,5号熄灭1，6号亮，再1，6号熄灭2,5号亮，最后2,5号熄灭3,4号亮。效果视频如下：http://player.youku.com/player.php/sid/XMjg0MjAwNzc2/v.swf通过以上4种事件的组合，就可以做出来各种效果。](shang_mian_zhe_duan_dai_ma_de_xiao_guo_shi_pin_ru_.md)
