@@ -17,7 +17,6 @@
    * [串口输入](chuan_kou_shu_ru.md)
    * [串口输出](chuan_kou_shu_chu.md)
    * [PWM脉冲宽度调制](pwmmai_chong_kuan_du_diao_zhi.md)
-* [arduino学习笔记12 PWM（脉冲宽度调制）](arduinoxue_xi_bi_ji_12_pwm_ff08_mai_chong_kuan_du_.md)
 * [arduino学习笔记13 Arduino的模拟输入](arduinoxue_xi_bi_ji13_arduino_de_mo_ni_shu_ru.md)
 * [arduino学习笔记14 Arduino的模拟输出](arduinoxue_xi_bi_ji14_arduino_de_mo_ni_shu_chu.md)
 * [arduino学习笔记15制作第一个电路 单led闪烁](arduinoxue_xi_bi_ji_15_zhi_zuo_di_yi_ge_dian_lu_da.md)
