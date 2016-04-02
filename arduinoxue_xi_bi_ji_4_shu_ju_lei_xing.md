@@ -1,4 +1,5 @@
-# arduino学习笔记4 数据类型 {#arduino-4}
+# arduino学习笔记4 
+数据类型 {#arduino-4}
 
 有多种类型的变量，如下所述
 
