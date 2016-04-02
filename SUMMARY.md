@@ -1,6 +1,7 @@
 # Summary
 
 * [创客读本](README.md)
+* [创客基础](chuang_ke_ji_chu.md)
 * [创客入门](shi_yao_shi_chuang_ke_ff1f.md)
    * [创客基础](chuang_ke_ji_chu.md)
    * [什么是arduino？](arduinoxue_xi_bi_ji_1_-_shi_yao_shi_arduino.md)
