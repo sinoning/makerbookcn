@@ -9,7 +9,7 @@
    * [知名创客网站](zhi_ming_chuang_ke_wang_zhan.md)
    * [什么是开源硬件](shi_yao_shi_kai_yuan_ying_jian.md)
    * [关于创客的一些新技术](guan_yu_chuang_ke_de_yi_xie_xin_ji_zhu.md)
-* [Arduino实验课程](arduinoshi_yan_ke_cheng.md)
+* [Arduino入门课程](arduinoshi_yan_ke_cheng.md)
    * [制作第一个电路](zhi_zuo_di_yi_ge_dian_lu.md)
 * [Arduino编程](arduinoru_men_jiao_cheng.md)
    * [Arduino基础](arduinoban_ben.md)
