@@ -11,7 +11,7 @@
    * [关于创客的一些新技术](guan_yu_chuang_ke_de_yi_xie_xin_ji_zhu.md)
 * [Arduino实验课程](arduinoshi_yan_ke_cheng.md)
    * [制作第一个电路](zhi_zuo_di_yi_ge_dian_lu.md)
-* [Arduino入门教程](arduinoru_men_jiao_cheng.md)
+* [Arduino编程](arduinoru_men_jiao_cheng.md)
    * [Arduino基础](arduinoban_ben.md)
    * [Arduino语言基础](arduinoyu_yan_ji_chu.md)
    * [Arduino编程](arduinobian_cheng.md)
