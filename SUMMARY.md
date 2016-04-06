@@ -14,7 +14,7 @@
    * [Arduino语言基础](arduinoyu_yan_ji_chu.md)
    * [Arduino编程](arduinobian_cheng.md)
    * [数字输入输出](shu_zi_shu_ru.md)
-   * [串口输入](chuan_kou_shu_ru.md)
+   * [串口输入输出](chuan_kou_shu_ru.md)
    * [串口输出](chuan_kou_shu_chu.md)
    * [PWM脉冲宽度调制](pwmmai_chong_kuan_du_diao_zhi.md)
    * [模拟输入](mo_ni_shu_ru.md)
