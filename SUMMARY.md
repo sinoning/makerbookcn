@@ -22,6 +22,6 @@
 * [Arduino实验课程](arduinoshi_yan_ke_cheng.md)
    * [制作第一个电路](zhi_zuo_di_yi_ge_dian_lu.md)
 * [Arduino高级制作](arduinogao_ji_zhi_zuo.md)
-   * 红外小车
+   * [红外小车](hong_wai_xiao_che.md)
 * [更新记录](geng_xin_ji_lu.md)
 
