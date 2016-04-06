@@ -8,7 +8,7 @@
    * [什么是创客空间？](shi_yao_shi_chuang_ke_kong_jian_ff1f.md)
    * [知名创客网站](zhi_ming_chuang_ke_wang_zhan.md)
    * [什么是开源硬件](shi_yao_shi_kai_yuan_ying_jian.md)
-   * 关于创客的一些新技术
+   * [关于创客的一些新技术](guan_yu_chuang_ke_de_yi_xie_xin_ji_zhu.md)
 * [Arduino入门教程](arduinoru_men_jiao_cheng.md)
    * [Arduino基础](arduinoban_ben.md)
    * [Arduino语言基础](arduinoyu_yan_ji_chu.md)
