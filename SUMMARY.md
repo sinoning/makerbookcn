@@ -21,6 +21,6 @@
    * [模拟输入输出](mo_ni_shu_ru.md)
 * [Arduino高级制作](arduinogao_ji_zhi_zuo.md)
    * [红外小车](hong_wai_xiao_che.md)
-   * 蓝牙小车
+   * [蓝牙小车](lan_ya_xiao_che.md)
 * [更新记录](geng_xin_ji_lu.md)
 
