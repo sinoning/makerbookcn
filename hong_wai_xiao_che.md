@@ -2,12 +2,26 @@
 
 ### 概述
   通过红外线采集实验，获取红外遥控的对应按钮的红外编码，再将对应红外编码在Arduino程序中定义相应的动作，使小车移动。当按下遥控器上对应的按钮，遥控器就会发送对应的编码，通过红外线接收管接收到信号，将对应的代码传递给Arduino，Arduino将向执行对应的动作
-
+![](TB23LWFdVXXXXX1XpXXXXXXXXXX-58240281.jpg)
 
 ### 所用到的知识点
 1. Arduino通过L298N电机模块驱动马达
 2. 红外线接收
 3. 红外线采集
+[套件购买地址](https://item.taobao.com/item.htm?spm=a1z10.1-c.w137712-11798119558.5.ZWuJNv&id=520731683839)
+
+### 材料
+1. arduino uno 开发板
+2. l298n电机驱动模块
+3. 红外接收头
+4. 红外遥控器
+5. 电池组+充电器
+### 开始制作
+* 第一步，安装亚克力板小车
+* 第二步，安装Arduino UNO 和L298N等模块到亚克力板小车上。
+* 第三步，连线
+* 第四部，测试
+
 
 ### 线路连接
 1.	电源插入Arduino电源圆形插口
@@ -16,142 +30,46 @@
 4.	L298N两边各两个接线柱各接一个马达
 5.	红外接收头黄色线接Arduino GND，红色线接Arduino 3.3+，蓝色线接Arduino AO
 
-
 ### 源代码
+**[源代码下载](http://www.chuang-ke.com/a/downloads/Arduino/2015/1025/166.html)**
 
-`#include <IRremote.h>  // 使用
-//******红外遥控智能车程序*******
-#include <IRremote.h>
-int RECV_PIN = A0;
-int pinLB=2;//定义I1接口
-int pinLF=3;//定义I2接口
-int pinRB=4;//定义I3接口
-int pinRF=5;//定义I4接口
-//******红外控制部分********
+![](QQ图片20160419171756.png)
+
+
+### 用到的库
+[IRremote ](http://www.chuang-ke.com/a/downloads/Arduinokuxiazai/2015/1025/175.html)
+
+
+
+---
+
+
+## 拓展练习
+
+### 红外代码采集实验
+首先要采集遥控器各个按钮的代码，然后记录代码，我们也可以用家用红外遥控器来采集
+详情请看：http://bbs.haibucuo.com/thread-45-1-1.html
+采集到的代码：
+FFA25D   FF629D  
+FF22DD  FF02FD   FFC23D
+
+我们要记住每一个按钮对应的编码，后期我们会在程序中定义对应代码对应的功能
+
+写入arduino代码之前，要加上0x00
+形成对应的命令：
 long advence = 0x00FF629D;
 long back = 0x00FF02FD;
 long stop = 0x00FFA25D;
 long left = 0x00FF22DD;
 long right = 0x00FFC23D;
 
-IRrecv irrecv(RECV_PIN);
-decode_results results;
-void dump(decode_results *results) {
-  int count = results->rawlen;
-  if (results->decode_type == UNKNOWN) 
-    {
-     Serial.println("Could not decode message");
-    } 
-  else 
-   {
-    if (results->decode_type == NEC) 
-      {
-       Serial.print("Decoded NEC: ");
-      } 
-    else if (results->decode_type == SONY) 
-      {
-       Serial.print("Decoded SONY: ");
-      } 
-    else if (results->decode_type == RC5) 
-      {
-       Serial.print("Decoded RC5: ");
-      } 
-    else if (results->decode_type == RC6) 
-      {
-       Serial.print("Decoded RC6: ");
-      }
-     Serial.print(results->value, HEX);
-     Serial.print(" (");
-     Serial.print(results->bits, DEC);
-     Serial.println(" bits)");
-   }
-     Serial.print("Raw (");
-     Serial.print(count, DEC);
-     Serial.print("): ");
-
-  for (int i = 0; i < count; i++) 
-     {
-      if ((i % 2) == 1) {
-      Serial.print(results->rawbuf[i]*USECPERTICK, DEC);
-     } 
-    else  
-     {
-      Serial.print(-(int)results->rawbuf[i]*USECPERTICK, DEC);
-     }
-    Serial.print(" ");
-     }
-      Serial.println("");
-     }
-
-void setup()
- {
-  pinMode(RECV_PIN, INPUT);   
-  pinMode(pinLB,OUTPUT);
-  pinMode(pinLF,OUTPUT);
-  
-  pinMode(pinRB,OUTPUT);
-  pinMode(pinRF,OUTPUT);
- 
-Serial.begin(9600);
-  irrecv.enableIRIn(); // Start the receiver
- }
-
-int on = 0;
-unsigned long last = millis();
-
-void loop() 
-{
-  if (irrecv.decode(&results)) 
-   {
-    // If it's been at least 1/4 second since the last
-    // IR received, toggle the relay
-    if (millis() - last > 250) 
-      {
-       on = !on;
-//       digitalWrite(8, on ? HIGH : LOW);
-       digitalWrite(13, on ? HIGH : LOW);
-       dump(&results);
-      }
-    if (results.value == advence )
-    {digitalWrite(pinRB,LOW);//使直流电机（右）GO
-    digitalWrite(pinRF,HIGH);
-    digitalWrite(pinLB,LOW);//使直流电机（左）GO
-    digitalWrite(pinLF,HIGH);}
-
-    if (results.value == back )
-   
-
-     {digitalWrite(pinRB,HIGH);//使直流电机（右）BACK
-     digitalWrite(pinRF,LOW);
-      digitalWrite(pinLB,HIGH);//使直流电机（左）BACK
-    digitalWrite(pinLF,LOW);}
-       
-
-    if (results.value == left )
-    { digitalWrite(pinRB,LOW);//使直流电机（右）GO
-     digitalWrite(pinRF,HIGH);
-     digitalWrite(pinLB,HIGH);//使直流电机（左）STOP
-     digitalWrite(pinLF,HIGH);}
 
 
-    if (results.value == right )
-    { digitalWrite(pinRB,HIGH);//使直流电机（右）STOP
-     digitalWrite(pinRF,HIGH);
-     digitalWrite(pinLB,LOW);//使直流电机（左）GO
-     digitalWrite(pinLF,HIGH);}
+---
 
-    if (results.value == stop )
-      {
-     digitalWrite(pinRB,HIGH);//使直流电机（右）STOP
-     digitalWrite(pinRF,HIGH);
-      digitalWrite(pinLB,HIGH);//使直流电机（左）STOP
-     digitalWrite(pinLF,HIGH);
-   
-   } 
-          
-    last = millis();      
-    irrecv.resume(); // Receive the next value
-  }
-}`
 
+### 基础课程
+
+ Arduino代码烧录教程
+ Arduino库的导入教程
 
