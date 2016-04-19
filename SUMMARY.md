@@ -22,5 +22,6 @@
 * [Arduino高级制作](arduinogao_ji_zhi_zuo.md)
    * [红外小车](hong_wai_xiao_che.md)
    * [蓝牙小车](lan_ya_xiao_che.md)
+   * 循迹小车
 * [更新记录](geng_xin_ji_lu.md)
 
