@@ -16,6 +16,7 @@
    * [例2-LED 闪烁](li_2_-_led_shan_shuo.md)
    * [例3-PWM调光](li_3_-_pwm_diao_guang.md)
    * [例18-舵机控制](li_18_duo_ji_kong_zhi.md)
+   * 例22-步进电机
 * [Arduino编程](arduinoru_men_jiao_cheng.md)
    * [Arduino语言基础](arduinoyu_yan_ji_chu.md)
    * [Arduino编程](arduinobian_cheng.md)
