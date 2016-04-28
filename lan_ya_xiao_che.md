@@ -59,7 +59,7 @@ F 前进  B后退 L向左转 R向右转
 ## 代码
 [代码下载](http://www.chuang-ke.com/a/downloads/Arduino/2015/1025/167.html)（需要金币）
 
-![](QQ截图20160421183426.jpg)
+![](http://pic2.haibucuo.com/img/2016/04/QQ图片20160428202144.jpg)
 
 
 
