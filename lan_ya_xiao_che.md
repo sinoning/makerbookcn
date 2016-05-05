@@ -1,7 +1,7 @@
 # 蓝牙小车
 
 ![](http://pic2.haibucuo.com/img/2016/04/LOGO3-2.jpg)
-购买地址：淘宝店 还不错商城 （送100下载金币）
+购买地址：[淘宝店](https://item.taobao.com/item.htm?id=45424939154) [还不错商城](http://www.haibucuo.com/goods-24.html) （送100下载金币）
 ## 概述
 
 安卓手机通过APP客户端发送指令给蓝牙接收模块，蓝牙模块把命令发送给Arduino UNO,arduino经过事先变好的程序运算，发出指令给L298N电机驱动模块，电机驱动模块驱动电机，实现小车的运动。
