@@ -113,6 +113,11 @@ void loop()
 2. 舵机一个
 3. 电位器一个
 4. 杜邦线若干
+
+
+### 视频效果
+
+[移步优酷视频](http://v.youku.com/v_show/id_XMTU0MzcyNzk2OA==.html?from=y1.7-1.2)
 ###接线
 ![](knob_BB.jpg)
   ###代码
