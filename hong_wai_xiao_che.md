@@ -5,14 +5,16 @@
 ![](TB23LWFdVXXXXX1XpXXXXXXXXXX-58240281.jpg)
 
 ### 所用到的知识点
-1. Arduino通过L298N电机模块驱动马达
+1. Arduino通过L298N电机模块驱动电机
 2. 红外线接收
 3. 红外线采集
-[套件购买地址](https://item.taobao.com/item.htm?spm=a1z10.1-c.w137712-11798119558.5.ZWuJNv&id=520731683839)
+
+###套件购买
+[淘宝购买地址](https://item.taobao.com/item.htm?spm=a1z10.1-c.w137712-11798119558.5.ZWuJNv&id=520731683839)
 
 ### 材料
 1. arduino uno 开发板
-2. l298n电机驱动模块
+2. L298N电机驱动模块
 3. 红外接收头
 4. 红外遥控器
 5. 电池组+充电器
