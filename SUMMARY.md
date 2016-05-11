@@ -30,5 +30,6 @@
    * [蓝牙小车](lan_ya_xiao_che.md)
    * [循迹小车](xun_ji_xiao_che.md)
    * [WIFI视频小车](wifishi_pin_xiao_che.md)
+   * LCD温度计制作
 * [更新记录](geng_xin_ji_lu.md)
 
