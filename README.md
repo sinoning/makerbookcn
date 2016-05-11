@@ -39,12 +39,17 @@
 创客读本由创客VICTOR个人收集互联网上的相关资料，加上自我的实践学习，编辑而成。
 email：sinoning@qq.com
 
+###热点直达
+* [红外小车教程](http://www.makerbook.cn/hong_wai_xiao_che.html)
+* [蓝牙小车教程](http://www.makerbook.cn/lan_ya_xiao_che.html)
+* [舵机控制实验](http://www.makerbook.cn/li_18_duo_ji_kong_zhi.html)
 
 
 
 
 
 ## 更新记录
+* 20160511红外小车教程1.0发布
 * 20160428更新了蓝牙小车教程
 * 20160419增加了高级制作课程和入门课程
 * 20160406更新了目录，不断熟悉编辑系统。
