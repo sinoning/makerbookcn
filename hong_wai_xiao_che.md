@@ -18,11 +18,24 @@
 3. 红外接收头
 4. 红外遥控器
 5. 电池组+充电器
+
+###基础
+* GND 指的是电线接地端的简写。代表地线或0线或负极。
+* 5V 代表5v正极
+* 3.3v 代表3.3v正极
+* IN 输入
+* OUT 输出
+* +12v 代表12v正极
+###视频效果演示
+[移步优酷](http://v.youku.com/v_show/id_XMTI4Nzc0NTU5Mg==.html?from=y1.7-2)
 ### 开始制作
-* 第一步，安装亚克力板小车
-* 第二步，安装Arduino UNO 和L298N等模块到亚克力板小车上。
+* 第一步，安装亚克力板小车（[图文视频教程](http://www.chuang-ke.com/a/yiqizuochuangke/pinzhuangche/2016/0421/288.html)）
+* 第二步，安装Arduino UNO 和L298N等模块到亚克力板小车上。用扎带将电池和arduino板子绑在图示位置。
+* ![](http://pic2.haibucuo.com/img/2016/05/QQ图片20151114180553-1.png)
 * 第三步，连线
-* 第四部，测试
+* ![](http://pic2.haibucuo.com/img/2016/05/3BDTYSZZO1KAC8FU@2X.jpg)
+* 第四部，将红外接收头完全暴露空中，并用扎带绑到杜邦线上，使接收头处于最高位置，获得最佳接收效果。
+* 第五部，测试。如果按向前命令，一个马达向前，一个马达向后，把向后的马达两根线正负极调换一下即可。
 
 
 ### 线路连接
@@ -32,12 +45,31 @@
 4.	L298N两边各两个接线柱各接一个马达
 5.	红外接收头黄色线接Arduino GND，红色线接Arduino 3.3+，蓝色线接Arduino AO
 
+###遥控器操作
+![](http://pic2.haibucuo.com/img/2016/05/TB1pGz.IFXXXXXVapXXXXXXXXXX_0-item_pic.jpg)
+遥控器上有很多按钮，我们根据需要定义了5个按钮，分别是前、后、左、右停止。
+操作的时候对准红外接收头，用力按按键，小车就会收到相应的命令，并执行。
+###如何定义遥控器
+首先，我们做了红外线采集实验，获得了对应按钮的编码。
+
+分别是 FFA25D   FF629D  FF22DD  FF02FD   FFC23D
+
+每一个编码要加入0x00前缀写入程序中。
+在arduino程序中编码对应如下：
+* long advence = 0x00FF629D;
+* long back = 0x00FF02FD;
+* long stop = 0x00FFA25D;
+* long left = 0x00FF22DD;
+* long right = 0x00FFC23D;
+
+
 ### 源代码
-**[源代码下载](http://www.chuang-ke.com/a/downloads/Arduino/2015/1025/166.html)**
+**[源代码下载](http://www.chuang-ke.com/a/downloads/Arduino/2015/1025/166.html)**（下载需要金币）
 
 ![](QQ图片20160419171756.jpg)
 
-
+###高级玩法
+可以用其它任意红外遥控器来操控红外小车，首先就是要做红外线采集实验，然后把采集到的编码替换程序中对应的命令，并将程序重新烧录到arduino板子中，就行了。
 ### 用到的库
 [IRremote ](http://www.chuang-ke.com/a/downloads/Arduinokuxiazai/2015/1025/175.html)
 
