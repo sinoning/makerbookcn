@@ -74,7 +74,10 @@
 [IRremote ](http://www.chuang-ke.com/a/downloads/Arduinokuxiazai/2015/1025/175.html)
 
 
+###常见问题
+1.可能arduino编译出错，这是由于新版arduino软件对红外库支持不够好的缘故。可以使用老版arduino软件。
 
+[下载地址](http://www.chuang-ke.com/a/downloads/diannaoruanjian/2016/0308/251.html)
 ---
 
 
