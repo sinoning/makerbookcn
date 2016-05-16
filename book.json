@@ -1,7 +1,7 @@
 {
     "plugins": [
         "ad",
-        "add-header",
+        "-add-header",
         "-advanced-emoji",
         "anchor-navigation",
         "baidu",
