@@ -1,6 +1,6 @@
 {
     "plugins": [
-        "ad",
+        "-ad",
         "-add-header",
         "-advanced-emoji",
         "anchor-navigation",
