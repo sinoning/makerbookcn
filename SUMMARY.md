@@ -18,7 +18,7 @@
    * [例3-PWM调光](li_3_-_pwm_diao_guang.md)
    * [例18-舵机控制](li_18_duo_ji_kong_zhi.md)
    * [例22-步进电机](li_22_bu_jin_dian_ji.md)
-   * Arduino常见问题及解决办法
+   * [Arduino常见问题及解决办法](arduinochang_jian_wen_ti_ji_jie_jue_ban_fa.md)
 * [Arduino编程](arduinoru_men_jiao_cheng.md)
    * [Arduino语言基础](arduinoyu_yan_ji_chu.md)
    * [Arduino编程](arduinobian_cheng.md)
